@@ -1,0 +1,28 @@
+#include <windows.h>
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+1 RT_MANIFEST "Windows/app.manifest"
+101 RCDATA "Assets/girl-atlas.png"
+102 RCDATA "Assets/boy-atlas.png"
+103 RCDATA "Assets/together-atlas.png"
+1 VERSIONINFO
+FILEVERSION 1,1,0,0
+PRODUCTVERSION 1,1,0,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904b0"
+    BEGIN
+      VALUE "FileDescription", "Desktop Companions\0"
+      VALUE "FileVersion", "1.1.0\0"
+      VALUE "ProductName", "Desktop Companions\0"
+      VALUE "ProductVersion", "1.1.0\0"
+      VALUE "OriginalFilename", "DesktopPets.exe\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END
