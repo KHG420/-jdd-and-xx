@@ -6,7 +6,7 @@ Windows 和 macOS 都可以使用的原生双人桌宠。根据人物参考图�
 
 仓库地址：[KHG420/-jdd-and-xx](https://github.com/KHG420/-jdd-and-xx)。当前原生双人桌宠版本为 **1.1.0**，macOS 使用 Swift / AppKit，Windows 使用 C++ / Win32。
 
-仓库原有的 `desktop_pet.py`、`pet_longhair_transparent_*.png` 和 `图库/` 属于早期 Python 桌宠，保留供参考；当前版本的构建和运行入口见下文，使用 `Sources/`、`Windows/` 和 `Assets/`。
+仓库原有的 `desktop_pet.py`、`pet_longhair_transparent_*.png` 和 `图库/` 属于早期 Python 桌宠，已从当前目录删除；当前目录由原生双人桌宠替代，构建和运行入口见下文，使用 `Sources/`、`Windows/` 和 `Assets/`。旧版仅在 Git 历史中保留，可在历史提交 `caf0202` 中查看。
 
 ```sh
 git clone git@github.com:KHG420/-jdd-and-xx.git
